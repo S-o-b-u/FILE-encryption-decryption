@@ -15,16 +15,16 @@ int main()
 	if(fptr1 == NULL)
 	{
 		printf("Error Read File\n");
-		printf("Try Again Later ;(");
-		
+		printf("Try Again Later :(");
+		exit(0);
 	}
 	
 	fptr2 = fopen("encrypted.txt", "w");
 	if(fptr2 == NULL)
 	{
 		printf("Error Write File\n");
-		printf("Try Again Later ;(");
-		
+		printf("Try Again Later :(");
+		exit(0);
 	}
 	
 	do{
