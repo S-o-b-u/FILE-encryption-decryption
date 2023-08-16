@@ -37,7 +37,7 @@ int main()
 	fclose(fptr1);
 	fclose(fptr2);
 	printf("Thank You For Using Me >< \n");
-	printf("Your <ENCRYPTED FILE> Is Ready :)\n");
+	printf("Your <DECRYPTED FILE> Is Ready :)\n");
 	printf("Have A Great Day <==>");
 	return 0;
 }
