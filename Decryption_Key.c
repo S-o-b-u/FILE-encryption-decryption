@@ -8,7 +8,7 @@ int main()
 	char inputfile[20], ch;
 	FILE *fptr1, *fptr2;
 	
-	printf("Enter Your <DATA FILE> Name :\n");
+	printf("Enter Your <ENCRYPTED DATA FILE> Name :\n");
 	scanf("%s", inputfile);
 	
 	fptr1 = fopen(inputfile, "rb");
